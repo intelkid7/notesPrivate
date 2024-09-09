@@ -1,6 +1,6 @@
 export const getGlossaryTerms = async (content) => {
   try {
-    const response = await fetch("http://localhost:5000/get-glossary-terms", {
+    const response = await fetch("https://notes-private-backend.vercel.app/get-glossary-terms", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
